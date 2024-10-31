@@ -9,7 +9,7 @@ class BKPolypDataset(CustomDataset):
     CLASSES = ('background', 'green', 'red')
     PALETTE = [[0, 0, 0], [0, 255, 0], [255, 0, 0]]
 
-    def __init__(self, size=(384, 384), **kwargs):
+    def __init__(self, size=(512, 512), **kwargs):
         super(BKPolypDataset, self).__init__(
             img_suffix='.jpg',
             seg_map_suffix='.jpg',  # Change suffix if needed
