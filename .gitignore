@@ -118,3 +118,6 @@ mmseg/.mim
 
 # Pytorch
 *.pth
+
+#tungbt utils_func
+utils_func/
